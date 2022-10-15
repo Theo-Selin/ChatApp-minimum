@@ -1,5 +1,5 @@
 export default interface MessageItem {
-    id: string,
+    id?: string,
     text: string,
     user: string,
     timeStamp: Date,
